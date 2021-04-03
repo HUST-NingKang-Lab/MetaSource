@@ -1,8 +1,9 @@
 # MetaSource
 
-This repository is the source code and intermediate results for the research "Structure and function predictions of protein families by a microbiome-based targeted approach: decoding the link of microbiome niches with protein family homologous sequences".
+This repository is the source code and intermediate results for the research "Decoding microbiome and protein family linkage to improve protein structure prediction".
 
-This repository is constructed for the researchers to reproduce the results of the metagenome analysis and machine learning model construction in the research "Structure and function predictions of protein families by a microbiome-based targeted approach: decoding the link of microbiome niches with protein family homologous sequences". 
+This repository is constructed for the researchers to reproduce the results of the metagenome analysis and machine learning model construction in the research "Decoding microbiome and protein family linkage to improve protein structure prediction". Moreover, the intermediate results of protein 3D structure is avaliable at our [releases](https://github.com/HUST-NingKang-Lab/MetaSource/releases). Moreover,the protein 3D structure result including [benchmark dataset for C-I-TASSER](https://zhanglab.ccmb.med.umich.edu/C-I-TASSER/metasource/benchmark.zip),[predicted 3D structure model](https://zhanglab.ccmb.med.umich.edu/C-I-TASSER/metasource/pfam.zip) and [204 validation models for MetaSource]is also downloadable through zhanglab.
+
 ## Workflow for our research
 <img src="image/Figure1.png">
 (A) Sequences from different biomes were collected, and the biome-sequence associations are also organized. 
@@ -10,7 +11,7 @@ This repository is constructed for the researchers to reproduce the results of t
 (C) For Pfam families with C-score over -0.25, the marginal effect is evaluated for four biomes to quantify the effects of metagenome data from different biomes on Pfam families. 
 (D) Pfam families with C-score over -0.25 were assigned to their respective source biomes, as the biome-Pfam association. 
 (E) The multiclass random forest model construction using Pfam families with unsolved structures. 
-(F) The validation of metasource using Pfam families whose structure solved. 
+(F) The validation of metasource using Pfam families whose structure solved.
 ## Summary
 
   - [Repository structure](#getting-started)
